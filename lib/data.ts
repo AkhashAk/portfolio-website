@@ -66,6 +66,7 @@ export const projectsData = [
       "Developed a full-stack chat app with socket.io for real-time messaging. Users can chat with their friends and family with ease.",
     tags: ["React", "Node.js", "MongoDB", "socket.io", "Express"],
     imageUrl: wizchat,
+    demo_url: ""
   },
   {
     title: "Mindspire",
@@ -73,6 +74,7 @@ export const projectsData = [
       "Mindspire is a blog app build using React and Node.js, where users can share their thougths about anything.",
     tags: ["React", "Node.js", "MongoDB", "Express", "AWS Lambda", "AWS APIGateway", "DynamoDB"],
     imageUrl: mindspire,
+    demo_url: "https://mindspire-frontend-jcu816kk3-akhashs-projects.vercel.app"
   },
 ] as const;
 
