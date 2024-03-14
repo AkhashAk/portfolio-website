@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://res.cloudinary.com/duss3s7ml/image/upload/v1710084666/Akhash_Photo.png?fit=crop&w=268&h=268&q=100"
+              src="https://res.cloudinary.com/duss3s7ml/image/upload/v1710342924/Akhash-profile-photo.png?fit=crop&w=268&h=268&q=100"
               alt="Akhash portrait"
               width="192"
               height="192"
