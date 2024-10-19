@@ -28,7 +28,7 @@ export default function About() {
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          React, Node.js, Express and MongoDB
+          React, Node.js, Spring Boot, MongoDB and MySQL
         </span>
         . I am also familiar with TypeScript. I am always looking to
         learn new technologies to apply those in real world.

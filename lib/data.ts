@@ -53,7 +53,7 @@ export const experiencesData = [
     title: "Software Engineer Analyst",
     location: "Coimbatore, India",
     description:
-      "I'm now a full-stack developer working in Accenture. My stack includes Node.js, React, JavaScript, Express, MongoDB and HTML/CSS.",
+      "I'm now a full-stack developer working in Accenture. My stack includes React, Node, Spring Boot, JavaScript, MongoDB and MySQL.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - present",
   },
@@ -79,11 +79,11 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "Node.js",
-  "React",
-  "Express",
+  "ReactJs",
+  "NodeJs",
+  "Spring Boot",
   "JavaScript",
-  "Python",
+  "Java",
   "MongoDB",
   "Redux",
   "HTML",
