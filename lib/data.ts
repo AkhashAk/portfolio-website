@@ -3,7 +3,6 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import wizchat from "@/public/wizchat.png";
 import mindspire from "@/public/Mindspire.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -34,28 +33,52 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Tamilnadu College of Engineering",
-    location: "Coimbatore, India",
+    companyName: "Tamilnadu College of Engineering",
+    logo: '',
+    width: 0,
+    height: 0,
+    title: "Computer Science and Engineering",
+    location: "Coimbatore, Tamil Nadu, India",
     description:
       "I graduated with a Bachelor of Engineering degree in Computer Science and Engineering from TCE.",
     icon: React.createElement(LuGraduationCap),
     date: "2021",
   },
   {
+    companyName: "Accenture",
+    logo: "/ACN_logo.png",
+    width: 40,
+    height: 40,
     title: "Associate Software Engineer",
-    location: "Bangalore, India",
+    location: "Bangalore, Karnataka, India",
     description:
       "I worked as a ASE for 2 years in Accenture, India. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2023",
   },
   {
+    companyName: "Accenture",
+    logo: "/ACN_logo.png",
+    width: 40,
+    height: 40,
     title: "Software Engineer Analyst",
-    location: "Coimbatore, India",
+    location: "Coimbatore, Tamil Nadu, India",
     description:
-      "I'm now a full-stack developer working in Accenture. My stack includes React, Node, Spring Boot, JavaScript, MongoDB and MySQL.",
+      "Contibuted as a full-stack developer in Accenture. My stack includes React, Node, JavaScript, MongoDB and MySQL.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 - present",
+    date: "2023 - 2025",
+  },
+  {
+    companyName: "Lowe's India",
+    logo: "/LOWES_logo.png",
+    width: 70,
+    height: 50,
+    title: "Software Engineer",
+    location: "Bangalore, Karnataka, India",
+    description:
+      "Working as a Full stack developer mainly focused on UI and ssr. My stack includes React, Node, JavaScript.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2025 - present",
   },
 ] as const;
 
@@ -81,15 +104,12 @@ export const projectsData = [
 export const skillsData = [
   "ReactJs",
   "NodeJs",
-  "Spring Boot",
   "JavaScript",
-  "Java",
   "MongoDB",
   "Redux",
   "HTML",
   "CSS",
   "TypeScript",
-  "Next.js",
   "Git",
   "Tailwind",
 ] as const;

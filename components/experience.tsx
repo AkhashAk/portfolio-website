@@ -8,6 +8,7 @@ import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
+import Image from "next/image";
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
@@ -46,11 +47,23 @@ export default function Experience() {
               }}
 
             >
-              <h3 className="font-semibold capitalize">{item.title}</h3>
-              <p className="font-normal !mt-0">{item.location}</p>
-              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
-                {item.description}
-              </p>
+              <div style={{ display: "flex", flexDirection: "row", alignItems: "center", gap: "1rem" }}>
+                <Image
+                  src={item?.logo}
+                  alt={item.companyName}
+                  width={item.width} height={item.height}
+                  className="mb-2"
+                  style={{ alignSelf: 'baseline'}}
+                />
+                <div className="flex flex-col">
+                  <h4 className="font-semibold capitalize" style={{ fontSize: "x-large" }}>{item.companyName}</h4>
+                  <h3 className="font-normal capitalize">{item.title}</h3>
+                  <p className="font-normal !mt-0">{item.location}</p>
+                  <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+                    {item.description}
+                  </p>
+                </div>
+              </div>
             </VerticalTimelineElement>
           </React.Fragment>
         ))}
