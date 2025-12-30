@@ -112,4 +112,6 @@ export const skillsData = [
   "TypeScript",
   "Git",
   "Tailwind",
+  "Styled Components",
+  "Agentic AI Development"
 ] as const;
